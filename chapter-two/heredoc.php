@@ -16,6 +16,10 @@ used quoted string syntax. They are especially useful when we need to define a s
 multiple lines (new lines are also interpreted when used in quoted strings) and where use of whitespace
 is important.
 
+-> A heredoc is a way to define a multiline string, while maintaining the 
+original indentation & formatting. You can use a Heredoc to embed snippets of SQL, 
+HTML, or even XML code.
+
 -> Heredoc text behaves just like a double-quoted string, without the double quotes. This means that 
 quotes in a heredoc do not need to be escaped.
 

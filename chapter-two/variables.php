@@ -7,10 +7,9 @@
           ->  camel case e.g. camelCase   
 */
 
-
 /* Examples of string interpolation */
 
-/* $var = 'example of a string'; //string
+$var = 'example of a string'; //string
 $num = 10; //number
 $b = null; //null data type
 
@@ -21,7 +20,7 @@ echo '$var';
 
 echo "<br>";
 
-echo "$var"; */
+echo "$var";
 
 
 /* Data Types */

@@ -22,21 +22,21 @@
 
 // Syntax: substr(string, start/offset, length)
 
-// $str = "Floccinaucinihilipilification";
+$str = "Floccinaucinihilipilification";
 
-/* $str = "Hello";
+// $str = "Hello";
 
-echo substr($str, 0, 4); */
+// echo substr($str, 0, 4);
 
 
-// echo lcfirst("hello world nepal");
+// echo lcfirst("Hello world nepal");
 
 
 /* string replace method */
 
 // Syntax: str_replace(search/needle, replace, subject/string/haystack, count)
-/* 
-$str = "Kist college";
+
+/* $str = "Kist college";
 echo str_replace("Kist", "Ncit", $str, $i);
 echo "<br>";
 echo  "The number of replacement is: $i"; */

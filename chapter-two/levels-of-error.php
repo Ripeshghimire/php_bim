@@ -5,17 +5,18 @@
         a) Warning: 
                 -> The operation performed on the variables are executed.
                 -> It returns the warning information.
-                -> Line's of code are also executed after warning error.
+                -> Line's of code are also executed after the warning error.
                 
-        b) Parse Error: 
+        b) Fatal Error: 
                 -> The operation performed on the variables are not executed. 
-                -> Parse information are encountered in case of misused or misspelled
-                   or missing symbols.
-                -> Line's of code are not executed after parse error.
+                -> Line's of code are not executed after the fatal error.
         
-        c) Error: 
+        c) Parse Error: 
                 -> No line's of code will be executed before and after the error.
-                -> It returns the syntax error. If semicolon is missing.
+                -> It returns the syntax error. 
+                -> For example, a syntax error can be a forgotten quotation mark, 
+                   a missing semicolon at the end of a line, missing parenthesis, 
+                   or extra characters.
  */
 
 
@@ -23,7 +24,7 @@ echo "<br>";
 
 $a = 10;
 
-// $b = "10asasa"; //returns warning error 
+// $b = "10asdaas"; //returns warning error 
 // $b = "asasa10"; // returns Fatal error or error
 
 /* $c = $a + $b;
