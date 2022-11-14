@@ -63,12 +63,13 @@ $act = "detail";
         echo "The operation performed is add";
 } else if ($act == "update") {
         echo "The operation performed is update";
-}else if ($act == "delete") {
+} else if ($act == "delete") {
         echo "The operation performed is delete";
-}else {
+} else {
         echo "The operation performed is detail";
 } */
 
+/* Q. WAP in PHP to print odd and even number using switch case */
 
 /* $act = "detail";
 
@@ -89,6 +90,19 @@ switch ($act) {
                 echo "The operation performed is detail";
 } */
 
+
+/* $num = 10;
+
+switch ($num % 2) {
+        case 0:
+                echo "Even Number";
+                break;
+
+        case 1:
+                echo "Odd Number";
+                break;
+} */
+
 /* Loops or iteraive statement */
 ?>
 
@@ -105,7 +119,6 @@ switch ($act) {
     <table border="1">
 
         <?php
-
                 $i = 1;
 
                 /* do {
@@ -115,10 +128,11 @@ switch ($act) {
                         $i++;
                 } while ($i <= 10); */
 
-                /* while ($i <= 10) {
-                        echo "<tr> <td>" . "8 * " . $i . " = " . (8 * $i) . "</td></tr>";
+                /*  while ($i <= 10) {
+                        echo "<tr><td>" . "8 * " . $i . " = " . (8 * $i) . "</td></tr>";
                         $i++;
                 } */
+
 
                 /* for ($i = 1; $i <= 10; $i++) {
                         echo "<tr>";
