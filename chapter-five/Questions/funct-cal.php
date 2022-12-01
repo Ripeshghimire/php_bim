@@ -21,4 +21,4 @@ function calculate($l, $b, $act = "area", $h = 0)
         echo "Your credentials did not match.";
     }
 }
-calculate(10, 20, "perimeter");
+calculate(10, 20, 'area');

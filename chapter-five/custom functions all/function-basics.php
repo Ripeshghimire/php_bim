@@ -50,7 +50,7 @@ function oddEven($num)
     }
 }
 
-// oddEven(10);
+// oddEven(0);
 
 //Two argument's
 
@@ -69,8 +69,7 @@ echo $res; */
 
 
 /* Specifying a default value/argument or optional argument */
-
-/* function mulNum($a, $b = 0)
+/* function mulNum($a, $b = 1)
 {
     $c = $a * $b;
     return $c;
@@ -99,7 +98,8 @@ $array = array(
     'address'
 );
 
-debug($array, true);
+
+debug($array);
 
 echo "<b>Hello</b>"; */
 

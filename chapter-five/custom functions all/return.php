@@ -30,9 +30,8 @@ function data($a, $b)
     return [$a, $b];
 }
 
-
-echo "<pre>";
+/* echo "<pre>";
 print_r(data('Nepal', 44600));
-echo "</pre>";
+echo "</pre>"; */
 
 // var_dump(data('Nepal', 44600));
