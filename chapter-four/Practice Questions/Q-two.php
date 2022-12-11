@@ -8,3 +8,31 @@
     c. Bachelor in Business Studies.
     
 */
+
+$faculties = array(
+    'Bachelor in Information Management',
+    'Bachelor in Business Administration',
+    'Bachelor in Business Studies'
+);
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <ol type="a">
+        <?php
+        foreach ($faculties as $key => $value) {
+        ?>
+        <li><?php echo $value; ?></li>
+        <?php
+        }
+        ?>
+    </ol>
+</body>
+
+</html>
