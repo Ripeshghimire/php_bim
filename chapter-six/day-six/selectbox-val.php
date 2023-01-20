@@ -6,9 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             echo  "You have selected: " . $value . "<br>";
         }
     } else {
-        $error = "** Please select you 
-        
-        city **" . "<br>";
+        $error = "** Please select your city **" . "<br>";
     }
 }
 ?>
