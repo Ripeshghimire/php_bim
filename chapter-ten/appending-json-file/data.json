@@ -1,0 +1,63 @@
+[
+    {
+        "uname": "Shad",
+        "lname": "Barron",
+        "email": "gicetuhoho@mailinator.com",
+        "gender": "female",
+        "hobbies": [
+            "football",
+            "on"
+        ],
+        "city": "cht",
+        "txtarea": "Odio voluptatem Con"
+    },
+    {
+        "uname": "Macy",
+        "lname": "Allen",
+        "email": "jilageqova@mailinator.com",
+        "gender": "others",
+        "city": "cht",
+        "txtarea": "Dolor nobis quia err"
+    },
+    {
+        "uname": "Macy",
+        "lname": "Allen",
+        "email": "jilageqova@mailinator.com",
+        "gender": "others",
+        "city": "cht",
+        "txtarea": "Dolor nobis quia err"
+    },
+    {
+        "uname": "Kareem",
+        "lname": "Soto",
+        "email": "xevohi@mailinator.com",
+        "gender": "male",
+        "city": "brt",
+        "txtarea": "Rerum accusamus ad i"
+    },
+    {
+        "uname": "Skyler",
+        "lname": "Levine",
+        "email": "cocybaf@mailinator.com",
+        "gender": "female",
+        "hobbies": [
+            "football",
+            "on",
+            "on"
+        ],
+        "city": "pkr",
+        "txtarea": "Mollit culpa ex off"
+    },
+    {
+        "uname": "Kimberly",
+        "lname": "Hines",
+        "email": "zeruh@mailinator.com",
+        "gender": "male",
+        "hobbies": [
+            "on",
+            "on"
+        ],
+        "city": "dhg",
+        "txtarea": "Deleniti laboriosam"
+    }
+]
