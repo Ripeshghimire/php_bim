@@ -19,7 +19,7 @@
    %c - preferred date and time representation
    %C - century number (the year divided by 100, range 00 to 99)
    %d - day of the month (01 to 31)
-   %D - same as %m/$d/%y
+   %D - same as %m/%d/%y
    %e - day of the month (1 to 31)
    %g - like %G, but without century
    %G - 4-digit year corresponding to the ISO week number (see %V)
@@ -63,15 +63,15 @@
 */
 date_default_timezone_set('Asia/Kathmandu');
 
-echo strftime("%B %d %Y, %X %Z");
+// echo strftime("%B %d %Y, %X %Z");
 
 echo "<br><br>";
 
-echo strftime("%B %d %Y, %X %Z", mktime(22, 10, 0, 07, 10, 2001));
+// echo strftime("%B %d %Y, %X %Z", mktime(22, 10, 0, 07, 10, 2001));
 
 echo "<br><br>";
 
-echo strftime("%d-%m-%Y %H:%M:%S");
+// echo strftime("%d-%m-%Y %H:%M:%S");
 
 echo "<br><br>";
 
@@ -86,9 +86,9 @@ Both of the following examples will produce the string
 
 */
 $lastday = mktime(0, 0, 0, 3, 0, 2000);
-echo strftime("Last day in Feb 2000 is: %d", $lastday);
+// echo strftime("Last day in Feb 2000 is: %d", $lastday);
 
 echo "<br><br>";
 
 $lastday = mktime(0, 0, 0, 4, -31, 2000);
-echo strftime("Last day in Feb 2000 is: %d", $lastday);
+// echo strftime("Last day in Feb 2000 is: %d", $lastday);

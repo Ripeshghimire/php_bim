@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (isset($_POST['date-time']) && !empty($_POST['date-time'])) {
 
         $date_time_string = strtotime($_POST['date-time']);
-        echo date('h', $date_time_string);
+        echo date('Y', $date_time_string);
     }
 }
 

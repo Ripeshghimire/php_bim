@@ -45,8 +45,9 @@
     date('format', timestamp);    
 */
 
+$timezone = date_default_timezone_set('Asia/Kathmandu');
 $date = date('Y-m-d h:i:s A');
-// echo $date;
+echo $date;
 echo "<br>";
 
 $timezone = date_default_timezone_get();
@@ -65,4 +66,4 @@ echo "<br>";
 
 /* Example: to display the current date in following format. */
 $date = date('jS \of F, Y');
-echo $date;
+// echo $date;
