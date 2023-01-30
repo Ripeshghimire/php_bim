@@ -17,4 +17,5 @@ if ($page === false) {
     $size = filesize($file_name);
     $data = fread($fp, $size);
     echo $data;
+    fclose($fp);
 }

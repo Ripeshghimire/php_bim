@@ -22,7 +22,7 @@ Database Data Types:
     c. Date
             - date 3 bytes, Y-m-d format
             - time 3 bytes, H:i:s 
-            - timestamp 4 bytes, Y-m-d H:i:s till year 2037
+            - timestamp 4 bytes, Y-m-d H:i:s till year 2038
             - datetime 8 bytes, Y-m-d H:i:s till year 9999
             
     d. Enum
