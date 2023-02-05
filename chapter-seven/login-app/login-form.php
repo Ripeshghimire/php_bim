@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <!-- Board Questions (2019) -->
+    <!-- Board Exam Questions (2019) -->
     <form method="POST" action="process.php">
         Username: <input type="text" name="uName"><br><br>
         Password: <input type="password" name="uPass"><br><br>
